@@ -1,0 +1,274 @@
+html, body, :global(#root) {
+  height: 100%;
+  font-family: Georgia, sans-serif;
+}
+
+
+/* menu */
+
+:global(.ant-menu-item-selected) {
+  background-color: #fff !important;
+}
+
+
+/* modal */
+
+:global(.ant-modal-header) {
+  background: #35424d !important;
+}
+
+:global(.ant-modal-body) {
+  background: #fafafa !important;
+}
+
+:global(.ant-modal-title) {
+  color: #d9dbdd !important;
+}
+
+:global(.ant-modal-close) {
+  color: #d9dbdd !important;
+}
+
+:global(.ht-10em) {
+  height: 300px;
+  overflow: scroll
+}
+
+:global(.ht-500) {
+  white-space: 'pre-wrap';
+  height: 500px;
+  overflow: scroll;
+}
+
+
+/* box-model-css */
+
+:global(.wd-100) {
+  width: 100%;
+}
+
+:global(.mg-b2) {
+  margin-bottom: 2em;
+}
+
+:global(.mg-t2) {
+  margin-top: 2em;
+}
+
+:global(.mg-t1) {
+  margin-top: 1em;
+}
+
+:global(.mg-l2) {
+  margin-left: 2em;
+}
+
+:global(.mg-l1) {
+  margin-left: 1em;
+}
+
+:global(.mg-r1) {
+  margin-right: 1em;
+}
+
+:global(.mg-r2) {
+  margin-right: 2em;
+}
+
+:global(.mg-t-b-2) {
+  margin: 2em 0;
+}
+
+:global(.mg-b1) {
+  margin-bottom: 1em;
+}
+
+:global(.mg-l-r-1) {
+  margin: 0 1em;
+}
+
+:global(.pd-b2) {
+  padding-bottom: 2em;
+}
+
+:global(.bd-l2) {
+  border-left: 2px solid #88B7E0;
+}
+
+:global(.bd-l1) {
+  border-left: 1px solid #888;
+}
+
+:global(.bd-r1) {
+  border-right: 1px solid #888;
+}
+
+:global(.bd-b1) {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+:global(.pd-l-05) {
+  padding-left: .5em;
+}
+
+:global(.pd-l-0) {
+  padding-left: 0 !important;
+}
+
+:global(.pd-l-f-2) {
+  padding: 0 2em;
+}
+
+:global(.pd-l-f-1) {
+  padding: 0 1em;
+}
+
+:global(.border-red) {
+  border-color: #ff3b00 !important;
+  box-shadow: 0 0 5px #ff3b00;
+}
+
+:global(.border-green) {
+  border-color: #02bd1d !important;
+  box-shadow: 0 0 5px #02bd1d;
+}
+
+
+/*float && position */
+
+:global(.flt-rt) {
+  float: right;
+}
+
+:global(.absolute-center) {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+}
+
+
+/*text-align  */
+
+:global(.ft-ct) {
+  text-align: center;
+  height: 66px;
+}
+
+
+/* font-color */
+
+:global(.ft-white) {
+  color: #fff !important;
+}
+
+:global(.ft-black) {
+  color: rgba(51, 51, 51, 0.65) !important;
+}
+
+:global(.ft-blue) {
+  color: #5a96e1 !important;
+}
+
+:global(.ft-red) {
+  color: #ff3b00 !important;
+}
+
+:global(.ft-green) {
+  color: #68d363 !important;
+}
+
+
+/*font-size  */
+
+:global(.ft-15em) {
+  font-size: 1.5em;
+}
+
+:global(.ft-12em) {
+  font-size: 1.2em;
+}
+
+:global(.ft-12p) {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+/* edit antd css */
+
+:global(.ant-menu-dark .ant-menu-submenu-title:hover) {
+  color: #5a96e1 !important;
+}
+
+
+/* gesture */
+
+:global(.pointer-hand:hover) {
+  cursor: pointer;
+}
+
+
+/* hide&&show */
+
+:global(.hidden) {
+  display: none;
+}
+
+:global(.show) {
+  display: normal;
+}
+
+:global(.sl-of) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+:global(.tube) {
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: rgba(51, 51, 51, 0.65);
+  margin-top: 4em;
+  overflow: hidden;
+}
+
+:global(.arrow) {
+  line-height: 30px;
+  font-size: 1.2em;
+}
+
+:global(.arrow-move) {
+  line-height: 30px;
+  font-size: 1.2em;
+  animation: flow 8s linear infinite;
+}
+
+:global(.error-box) {
+  height: 2em;
+  line-height: 2em;
+  border: 1px solid #fcdbd9;
+  background-color: #fef0ef;
+}
+
+:global(.tps-text) {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+}
+
+:global(.delay-text) {
+  position: absolute;
+  left: 15%;
+  bottom: -30%;
+}
+
+@keyframes flow {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 100%;
+  }
+}
